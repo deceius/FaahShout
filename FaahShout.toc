@@ -3,4 +3,5 @@
 ## Version: 0.0.1
 ## Author: Deceius
 ## Notes: Plays Faah sound effect when doing shouts
+## SavedVariables: faah_IsEnabled
 core.lua

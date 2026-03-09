@@ -1,0 +1,6 @@
+## Interface: 11200
+## Title: |cff7fff7f [D]|r FaahShout
+## Version: 0.0.1
+## Author: Deceius
+## Notes: Plays Faah sound effect when doing shouts
+core.lua

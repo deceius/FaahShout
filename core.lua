@@ -13,7 +13,7 @@ local function OnEvent()
     if event == "SPELLCAST_STOP" and pending and faah_IsEnabled then
         local now = GetTime()
         if (now - lastShout) >= SHOUT_COOLDOWN then
-            DEFAULT_CHAT_FRAME:AddMessage("|cffff0000[FAAAAH!!]|r: " .. pending)
+            -- DEFAULT_CHAT_FRAME:AddMessage("|cffff0000[FAAAAH!!]|r: " .. pending)
             PlaySoundFile(SOUND)
             lastShout = now
         end
